@@ -1,1 +1,0 @@
-setopt extended_glob
