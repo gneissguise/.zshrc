@@ -3,9 +3,7 @@
 ## Clojure env vars
 export LEIN_USERNAME="frostjust@gmail.com"
 export LEIN_PASSWORD=""
-export JAVA_HOME="~/.asdf/installs/java/temurin-18.0.1+10"
 export JVM_OPTS="-Xms8g -Xmx16g"
-export DEFAULT_USER="${DEFAULT_USER:-$(whoami)}"
 
 alias rlwrap-ansi-red='rlwrap --always-readline --prompt-colour=RED --histsize 10000 -q "\""'
 alias rlwrap-ansi-blue='rlwrap --always-readline --prompt-colour=BLUE --histsize 10000 -q "\""'

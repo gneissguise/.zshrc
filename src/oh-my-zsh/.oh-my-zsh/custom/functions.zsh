@@ -37,5 +37,7 @@ tak() {
     [[ -f "$var" ]] && mv "$var" "$var.$1" && echo "Successfully renamed $var -> $var.$1" || echo "Error renaming to: $var.$1"
   done
 }
+
+## Load everthing under `functions/` dir
 for f in $ZSH_CUSTOM/functions/*(N); do source $f; done
 export FPATH=$ZSH_CUSTOM/functions:$FPATH
